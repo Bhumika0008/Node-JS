@@ -12,7 +12,7 @@ const publicPath = path.join(__dirname,'public');
 // we can not load directly css and images by using static method
 
 // Remove Extension from URL
-//Means kisi bhi website link pr like http://localhost:5000/home.html isme .html kese reomve hoga
+//Means Removing .html or any other extension from url  http://localhost:5000/home.html from this
 app.get('',(req,resp) => {
     resp.sendFile(`${publicPath}/home.html`)
 });
