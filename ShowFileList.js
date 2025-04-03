@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const dirPath = path.join(__dirname,'files'); // current directory ka path deta hai yeh
+const dirPath = path.join(__dirname,'files');
 
 // console.warn(dirPath); 
 
@@ -10,8 +10,3 @@ for(i=0; i<5; i++){
 
 }
 
-// yeh files create kr dega like this:
-// >> files folder m (folder ka naam dirname k sath dena hota hai)
-// hello0.txt
-// hello1.txt
-//.....till hello4.txt tk
